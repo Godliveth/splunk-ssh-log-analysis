@@ -104,7 +104,7 @@ index=ssh_lab sourcetype="json"
 
 ## 🧾 Sample Output Screenshot
 
-![SSH Log Analysis Results](splunk_ssh_lab_results.png)
+![View all screenshots here](./screenshots)
 
 ---
 

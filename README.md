@@ -2,7 +2,7 @@
 *Day 18 of #30DaysOfSOC Challenge*
 
 ## 📘 Overview
-This project simulates a real-world **Security Operations Center (SOC)** workflow using **Splunk SIEM** to analyze SSH authentication logs.  
+This project demonstrates a real-world SOC workflow in Splunk using a **synthetic** Zeek SSH dataset (no real-world or sensitive data was used).
 The objective was to **detect failed and successful login attempts**, identify **potential brute-force activity**, and demonstrate core skills in **log analysis, SPL querying, and threat detection**.
 
 ---
@@ -46,6 +46,12 @@ This project reproduces that scenario to simulate how a SOC analyst investigates
    ```spl
    index=ssh_lab | stats count
    ```
+
+## 📂 Data Source
+The dataset used for this project is a **synthetic Zeek SSH log** file created for educational purposes.  
+It simulates authentication activity for SOC analysis and contains **no real-world or sensitive data**.
+
+📄 [Download synthetic_zeek_ssh.json](./synthetic_zeek_ssh.json)
 
 ---
 
@@ -101,17 +107,10 @@ index=ssh_lab sourcetype="json"
 | **Security Monitoring**      | Applying real-world SOC procedures to authentication logs. 
 
 ---
-## 📂 Data Source
-The dataset used for this project is a **synthetic Zeek SSH log** file created for educational purposes.  
-It simulates authentication activity for SOC analysis and contains **no real-world or sensitive data**.
-
-📄 [Download synthetic_zeek_ssh.json](./synthetic_zeek_ssh.json)
-
 
 ## 🧾 Sample Output Screenshot
-
+All screenshots from the analysis can be viewed in the 📸 screenshots/folder
 ![View all screenshots here](./screenshots)
-
 ---
 
 ## 🚀 Impact & Relevance
@@ -129,7 +128,7 @@ Such analytical exercises reflect readiness to operate in a live SOC environment
 | File                         | Description 
 |-------------------------------------------------------------------------
 | `synthetic_zeek_ssh.json`    | SSH log data used for ingestion
-| `splunk_ssh_lab_results.png` | Screenshot of SPL results 
+| `screenshots`                | Screenshot of SPL results 
 | `README.md`                  | Project documentation
 
 ---

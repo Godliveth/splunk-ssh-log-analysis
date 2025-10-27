@@ -101,6 +101,12 @@ index=ssh_lab sourcetype="json"
 | **Security Monitoring**      | Applying real-world SOC procedures to authentication logs. 
 
 ---
+## 📂 Data Source
+The dataset used for this project is a **synthetic Zeek SSH log** file created for educational purposes.  
+It simulates authentication activity for SOC analysis and contains **no real-world or sensitive data**.
+
+📄 [Download synthetic_zeek_ssh.json](./synthetic_zeek_ssh.json)
+
 
 ## 🧾 Sample Output Screenshot
 

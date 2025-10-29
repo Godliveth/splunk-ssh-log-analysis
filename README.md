@@ -109,8 +109,8 @@ index=ssh_lab sourcetype="json"
 ---
 
 ## 🧾 Sample Output Screenshot
-All screenshots from the analysis can be viewed in the 📸 screenshots/folder
-![View all screenshots here](./screenshots)
+<sub>All screenshots from the analysis can be viewed in the 📸 [screenshots folder](./screenshots)</sub>
+
 ---
 
 ## 🚀 Impact & Relevance
